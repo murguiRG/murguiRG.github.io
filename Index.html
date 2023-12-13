@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kalnia:wght@500&family=Lato&family=Poppins:wght@400;500&display=swap");
+    </style>
+    <!--Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <!--Swiper-->
+    <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
+    <!--Mine-->
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>Portafolio</title>
+  </head>
+  <body>
+    <main>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#main">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">Contact</a>
+        </li>
+      </ul>
+      <div class="row" id="main">
+        <div class="col" id="title">
+          <h1>Regina Murguía</h1>
+          <p>
+            Hi! I'm a passionate student who loves designing for the web, driven
+            by aesthetic, enthusiast for coding, and highly dressed just
+            because, haha! I enjoy spending time searching for design trends,
+            tech-related updates and mayor-league enterprise's gossip. I'm
+            looking forward to get where they are, but i'm already proud of what
+            i've achieved so far
+          </p>
+        </div>
+        <div class="col" id="cover">
+          <img src="/img/Regi.jpg" alt="Me" />
+        </div>
+      </div>
+    </main>
+    <section id="projects">
+      <div class="carousel-cont" id="projects-carousel">
+        <h2>Some projects i've worked on</h2>
+        <div class="slide-container swiper">
+          <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="card swiper-slide">
+                <img
+                  src="/img/Presentacion.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Presentation card</h5>
+                  <p class="card-text">
+                    Here's another way I present myself, as informal as the
+                    current. It was the first idea I had for my landing page
+                    before I came up with this portfolio.
+                  </p>
+                  <a
+                    href="https://htmlpreview.github.io/?https://github.com/murguiRG/Portfolio/blob/main/About_me/view/index.html"
+                    class="btn btn-primary"
+                    >Preview</a
+                  >
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <img src="/img/ClonGoogle.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Google Clon</h5>
+                  <p class="card-text">
+                    This was a layout challenge
+                  </p>
+                  <a
+                    href="https://htmlpreview.github.io/?https://github.com/murguiRG/GoogleMine/blob/main/view/index.html"
+                    class="btn btn-primary"
+                    >Preview</a
+                  >
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <img src="/img/MemoryGame.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Juego de memorama</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a
+                    href="https://htmlpreview.github.io/?https://github.com/murguiRG/Portfolio/blob/main/Memory_game/view/Memory.html"
+                    class="btn btn-primary"
+                    >Preview</a
+                  >
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <img src="/img/vweve.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Estate Broker</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Preview</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev" style="color: #8e3a1a"></div>
+          <div class="swiper-button-next" style="color: #8e3a1a"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="skills">
+        <div>
+          <h2>Skills</h2>
+          <ul>
+            <li><b>Programming languages:</b> C#, JavaScript, TypeScript</li>
+            <li>
+              <b>Web development:</b> HTML, CSS, Bootstrap, Node.js, React.js
+            </li>
+            <li>
+              <b>Data management:</b> Relational databases, version control
+            </li>
+            <li><b>Design:</b> User interface design (UI), wireframing</li>
+          </ul>
+        </div>
+        <div id="skills-icons">
+          <div class="row">
+            <div class="col">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <div class="col">
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <div class="col">
+              <i class="fa-brands fa-square-js"></i>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <i class="fa-brands fa-node-js"></i>
+            </div>
+            <div class="col">
+              <i class="fa-brands fa-react"></i>
+            </div>
+            <div class="col">
+              <i class="fa-brands fa-git-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="contact">
+        <h3>Wanna build something together?</h3>
+        <form action="">
+          <div class="mb-5">
+            <label for="name" class="form-label">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              aria-describedby="name"
+            />
+          </div>
+          <div class="mb-5">
+            <label for="email" class="form-label">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              aria-describedby="email"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" id="submit">
+            Submit
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div id="footer">
+        <div class="fake-registered">
+          <small>
+            &copy; 2023 Regina Murguía Corona. All rights reserved.
+          </small>
+        </div>
+        <div id="footer-icons">
+          <a href="https://github.com/murguiRG">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/regina-murguía-corona-771427294/"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Swiper-->
+    <script src="/js/swiper-bundle.min.js"></script>
+    <!--My-scripts-->
+    <script src="/js/my-swipe.js"></script>
+    <script src="/js/accesibility.js"></script>
+    <!--Font awesome-->
+    <script
+      src="https://kit.fontawesome.com/91a2e27bef.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
